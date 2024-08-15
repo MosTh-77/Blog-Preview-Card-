@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Figtree', sans-serif;
+}
+
+.card {
+    max-width: 400px;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    position: relative;
+    outline: 1px solid #000;
+    background-color: white;
+    box-shadow: 8px 8px ;
+}
+
+img{
+    display: block;
+}
+
+.first{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card .learning {
+    background-color: hsl(47, 88%, 63%);
+    width: min-content;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.card .publication {
+    margin: 1rem 0 1rem 0;
+}
+
+.card h1 a {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.desc{
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.card h1 a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.card .author {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.card .author img{
+    width: 30px;
+}
+
+.card .author .name{
+    font-weight: 800;
+}
